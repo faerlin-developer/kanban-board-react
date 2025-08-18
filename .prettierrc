@@ -1,0 +1,13 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 150,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 300
+      }
+    }
+  ]
+}
