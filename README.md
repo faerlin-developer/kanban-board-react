@@ -15,7 +15,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Deploy Locally</a></li>
+        <li><a href="#installation">Docker Deployment</a></li>
       </ul>
     </li>
     <li>
@@ -36,7 +36,7 @@ __Kanban Board React__ is an application that lets users create tasks, organize 
 
 - __Task Management__: Add new tasks via a task form component. A task has the following attributes: _title_, _category_, _priority_, and _description_. Each task card is styled with Tailwind (rounded corners, dynamic styling, centered layout).
 - __Kanban Lanes__: There are four workflow stages: _To Do_, _In Progress_, _Review_, and _Completed_. Tasks are displayed in their corresponding lane.
-- __Task Movement__: Each task has forward and backward buttons to move between lanes. Movement is restricted (e.g., can’t move backward from _To Do_ or forward from _Completed_).
+- __Task Movement__: Each task has forward and backward buttons to move between lanes. Movement is restricted (e.g. can’t move backward from _To Do_ or forward from _Completed_).
 
 ### Built With
 
@@ -45,6 +45,15 @@ __Kanban Board React__ is an application that lets users create tasks, organize 
 * [![React][React]][React-url]
 * [![Vite][Vite]][Vite-url]
 * [![Docker][Docker]][Docker-url]
+
+## Docker Deployment
+
+```bash
+make docker-build
+make docker-run
+```
+
+When deployed locally, open browser at `localhost:8080`. 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
