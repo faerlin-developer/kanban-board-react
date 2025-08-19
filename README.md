@@ -34,9 +34,9 @@ __Kanban Board React__ is an application that lets users create tasks, organize 
 
 ### Key Features
 
-- __Task Management__: Add new tasks via a task form component. A task has the following attributes: title, category, priority, and description. Each task card is styled with Tailwind (rounded corners, dynamic styling, centered layout).
-- __Kanban Lanes__: There are four workflow stages: To Do, In Progress, Review, and Completed. Tasks are displayed in their corresponding lane.
-- __Task Movement__: Each task has forward and backward buttons to move between lanes. Movement is restricted (e.g., can’t move backward from "To Do" or forward from "Completed").
+- __Task Management__: Add new tasks via a task form component. A task has the following attributes: _title_, _category_, _priority_, and _description_. Each task card is styled with Tailwind (rounded corners, dynamic styling, centered layout).
+- __Kanban Lanes__: There are four workflow stages: _To Do_, _In Progress_, _Review_, and _Completed_. Tasks are displayed in their corresponding lane.
+- __Task Movement__: Each task has forward and backward buttons to move between lanes. Movement is restricted (e.g., can’t move backward from _To Do_ or forward from _Completed_).
 
 ### Built With
 
