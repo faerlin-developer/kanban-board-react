@@ -40,6 +40,8 @@ __Kanban Board React__ is an application that lets users create tasks, organize 
 
 ## Docker Deployment
 
+To streamline deployment and maintain environment consistency, the application is containerized using Docker.  This process produces a Docker image that can be run as a container on any platform, ensuring the application behaves the same across development, testing, and production environments.
+
 ```bash
 make docker-build
 make docker-run
