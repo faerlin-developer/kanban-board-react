@@ -12,16 +12,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Docker Deployment</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#implementation-details">Implementation Details</a>
-      <ul>
-      </ul>
+      <a href="#docker-deployment">Docker Deployment</a>
     </li>
   </ol>
 </details>
