@@ -28,7 +28,7 @@ __Kanban Board React__ is an application that lets users create tasks, organize 
 - __Task Management__: Add new tasks via a task form component. A task has the following attributes: _title_, _category_, _priority_, and _description_. Each task card is styled with Tailwind (rounded corners, dynamic styling, centered layout).
 - __Kanban Lanes__: There are four workflow stages: _To Do_, _In Progress_, _Review_, and _Completed_. Tasks are displayed in their corresponding lane.
 - __Task Movement__: Each task has forward and backward buttons to move between lanes. Movement is restricted (e.g. can’t move backward from _To Do_ or forward from _Completed_).
-- __Persistence__: The Kanban board allows users to not only create and organize tasks but also delete them when they are no longer relevant. Each task card includes a delete button, enabling quick removal from the board. To make the experience seamless, all task actions, including adding, moving, and deleting, are persisted with localStorage. This ensures that the board's state is saved across browser sessions. When users refresh the page or return later, their tasks remain exactly where they left them, without requiring a backend database. 
+- __Persistence__: Users create using a form and delete tasks using a delete button. To make the experience seamless, all task actions, including adding, moving, and deleting, are persisted with the browser's localStorage. This ensures that the board's state is saved across browser sessions. When users refresh the page or return later, their tasks remain exactly where they left them, without requiring a backend database. 
 
 ### Built With
 
