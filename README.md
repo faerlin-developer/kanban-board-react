@@ -1,4 +1,4 @@
-# Kanban Board React
+# Kanban Board with React
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -21,7 +21,7 @@
 
 ![](screenshot.png)
 
-__Kanban Board React__ is an application that lets users create tasks, organize them into four lanes (To Do, In Progress, Review, Completed), and move tasks forward or backward between lanes. It uses __Vite__ as a built tool and __React__ state with localStorage persistence, __TailwindCSS__ for styling, and is built from modular components (`Task`, `TaskForm`, `TaskList`, `Lane`) for reusability. A Dockerfile is provided for easy deployment. 
+__Kanban Board with React__ is an application that lets users create tasks, organize them into four lanes (To Do, In Progress, Review, Completed), and move tasks forward or backward between lanes. It uses __Vite__ as a built tool and __React__ state with localStorage persistence, __TailwindCSS__ for styling, and is built from modular components (`Task`, `TaskForm`, `TaskList`, `Lane`) for reusability. A Dockerfile is provided for easy deployment. 
 
 ### Key Features
 
